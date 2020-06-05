@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+import os
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -93,5 +94,5 @@ client.on('message', message => {
 });
 
 
-
-client.login('NzE4MDcwMjE4MDc2NzE3MDk4.XtjhJA.x8uOeb9QoQDzL0l0401oQSxHDSo');
+access_token = os.eviron["BOT_TOKEN"]
+client.login('access_tokem');
